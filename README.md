@@ -1,2 +1,2 @@
-# CustomJavascriptForWebsite
-There are some custom javascript when page loading with extension: 
+# UserscriptForMe
+There are some userscript for self-use.
