@@ -9,7 +9,7 @@
 // @require    http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
 // @require    https://gist.github.com/raw/2625891/waitForKeyElements.js
 // ==/UserScript==
-
+// Copy from: http://goo.gl/QKXal
 var a = 0;
 window.addEventListener('load', function() {
 waitForKeyElements (".mUbCce.p9Nwte", clickTargetButton);
