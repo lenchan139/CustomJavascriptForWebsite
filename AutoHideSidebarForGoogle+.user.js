@@ -4,8 +4,10 @@
 // @version      1.1
 // @description  Auto to raw for Twitter Images.
 // @author       lenchan139
-// @match        https://plus.google..com/*
+// @match        https://plus.google.com/*
 // @grant        none
+// @require    http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
+// @require    https://gist.github.com/raw/2625891/waitForKeyElements.js
 // ==/UserScript==
 
 var a = 0;
