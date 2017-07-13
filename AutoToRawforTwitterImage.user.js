@@ -36,10 +36,10 @@
   
     //start
     //if correct, do nothing
-     alert(pattern1 + "|" + pattern2a +"|" + pattern2b + "|" + finder1 + "|" + finder2 + "|" + finder3);
+     //alert(pattern1 + "|" + pattern2a +"|" + pattern2b + "|" + finder1 + "|" + finder2 + "|" + finder3);
      if(pattern1==-1 && pattern2a!=-1 && pattern2b!=-1 && finder1!=-1 && finder2!=-1 && finder4!=-1){
          //do nothing
-         alert("good!");
+         //alert("good!");
      }else if(pattern1!=-1 && finder1==-1 && finder2==-1 && finder3==-1){
         var arr = window.location.href.match(/\/media\/\w+\.\w\w\w/);
         var str1 = arr[0];
@@ -51,7 +51,7 @@
         
         var arr1 = window.location.href.match(/\/media\/\w+.\w\w\w\:\w+/);
         var str1 = arr1[0];
-        alert(str1);
+        //alert(str1);
         //format
         var arr2 = str1.match(/\.\w\w\w/);
         var str2 = arr2[0];
