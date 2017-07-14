@@ -16,7 +16,7 @@
 
     'use strict';
 
-    var pattern1=window.location.href.search(/\/media\/\w+\.\w\w\w/);
+    var pattern1=window.location.href.search(/\/media\/(\w|-)+\.\w\w\w/);
     var pattern2a=window.location.href.search(/\?\w+\=\w+\&\w+\=\w+/g);
     var pattern2b=window.location.href.search(/\?\w+\=\w+/g);
     var finder1=window.location.href.search(/\?/g);
@@ -41,7 +41,7 @@
          //do nothing
          //alert("good!");
      }else if(pattern1!=-1 && finder1==-1 && finder2==-1 && finder3==-1){
-        var arr = window.location.href.match(/\/media\/\w+\.\w\w\w/);
+        var arr = window.location.href.match(/\/media\/(\w|-)+\.\w\w\w/);
         var str1 = arr[0];
         var arr2 = str1.match(/\.\w\w\w/);
         var str2 = arr2[0];
@@ -49,7 +49,7 @@
         
     }else if(pattern1!=-1 && finder1==-1 && finder2==-1 && finder3!=-1){
         
-        var arr1 = window.location.href.match(/\/media\/\w+.\w\w\w\:\w+/);
+        var arr1 = window.location.href.match(/\/media\/(\w|-)+.\w\w\w\:\w+/);
         var str1 = arr1[0];
         //alert(str1);
         //format
