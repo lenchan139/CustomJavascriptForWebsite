@@ -5,6 +5,8 @@
 // @description  Remember change the (at)match for your Mastodon domain.
 // @author       Len Chan
 // @match 	https://sns.lenchan139.org/*
+
+// @match 	https://pawoo.net/*
 // @grant        none
 // ==/UserScript==
 function clickMoss() {
